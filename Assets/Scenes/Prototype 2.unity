@@ -217,24 +217,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
---- !u!1 &370021219 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4134932976119693907, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
-  m_PrefabInstance: {fileID: 4134932976169692864}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &370021224
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370021219}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,24 +550,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1122971867 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1465220048162410157, guid: 4e435e445c1584b2d95c3b868f85d4ef, type: 3}
-  m_PrefabInstance: {fileID: 1465220048552926927}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1122971872
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122971867}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.021163888, y: 0.42297393, z: 0.29714605}
-  m_Center: {x: -0.0024644616, y: 0.14985743, z: 0.006906574}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,45 +690,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
---- !u!1 &1795346842 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
-  m_PrefabInstance: {fileID: 1795346841}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1795346843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795346842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ef1a00da474747dcbd1c34d710329bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
-  projectilePrefab: {fileID: 5610846177716960381, guid: b2c8c4102b1ad43b986ea37f2bb3870b, type: 3}
 --- !u!1 &1810076652 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7888084778718672048, guid: 67827bbb18cbc43afb5836cb22f6d6cc, type: 3}
   m_PrefabInstance: {fileID: 7888084779131905884}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1810076657
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810076652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.15456499, y: 0.43143222, z: 0.36641154}
-  m_Center: {x: -0.0016754756, y: 0.18505748, z: -0.043203395}
 --- !u!850595691 &2054294317
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -834,10 +764,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1465220047543668985, guid: 4e435e445c1584b2d95c3b868f85d4ef, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1465220048162410157, guid: 4e435e445c1584b2d95c3b868f85d4ef, type: 3}
       propertyPath: m_Name
       value: Dog_Pug_01
@@ -895,10 +821,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1530932639610990236, guid: b2c8c4102b1ad43b986ea37f2bb3870b, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 5610846177716789341, guid: b2c8c4102b1ad43b986ea37f2bb3870b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -956,10 +878,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4134932975174690942, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4134932976119693907, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
       propertyPath: m_Name
       value: Dog_BorderCollie_01
@@ -970,15 +888,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134932976120027427, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.61
+      value: 17.67
       objectReference: {fileID: 0}
     - target: {fileID: 4134932976120027427, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.45
       objectReference: {fileID: 0}
     - target: {fileID: 4134932976120027427, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.68
+      value: 14.16
       objectReference: {fileID: 0}
     - target: {fileID: 4134932976120027427, guid: 39aeb37b9586f470089eabcef0c42285, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1017,10 +935,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4405770640874913435, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4405770641262991085, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
       propertyPath: m_Name
       value: Dog_BullDog_01
@@ -1069,30 +983,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6867037824782851490, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: m_Size.x
-      value: 0.23356013
-      objectReference: {fileID: 0}
-    - target: {fileID: 6867037824782851490, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: m_Size.y
-      value: 0.37278616
-      objectReference: {fileID: 0}
-    - target: {fileID: 6867037824782851490, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: m_Size.z
-      value: 0.20679902
-      objectReference: {fileID: 0}
-    - target: {fileID: 6867037824782851490, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: m_Center.x
-      value: -0.35541135
-      objectReference: {fileID: 0}
-    - target: {fileID: 6867037824782851490, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: m_Center.y
-      value: 0.10298938
-      objectReference: {fileID: 0}
-    - target: {fileID: 6867037824782851490, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
-      propertyPath: m_Center.z
-      value: -0.39660594
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95111c3caaa5543d289f49fd9669a14b, type: 3}
 --- !u!1001 &7888084779131905884
@@ -1102,10 +992,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7888084777811212592, guid: 67827bbb18cbc43afb5836cb22f6d6cc, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7888084778718672048, guid: 67827bbb18cbc43afb5836cb22f6d6cc, type: 3}
       propertyPath: m_Name
       value: Animal_Moose_02
